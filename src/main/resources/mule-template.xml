@@ -1,0 +1,35 @@
+<template>
+    <title>Mule Template</title>
+    <questions>
+        <question id="artifactId" content="Project Maven Artifact Id"/>
+        <question id="projName" content="Project Name" default="${artifactId}"/>
+        <question id="groupId" content="Maven Group Id"/>
+        <question id="version" content="Version" default="1.0.0-SNAPSHOT"/>
+        <question id="runtimeVersion" content="Runtime Version" default="4.1.1"/>
+        <question id="munitVersion" content="MUnit version" default="2.1.2"/>
+        <question id="munitDynamicPort" content="MUnit dynamic port" default="http.port"/>
+    </questions>
+    <files>
+        <dir path="src">
+            <dir path="main">
+                <dir path="mule">
+                    <file path="config.xml" resource="config.xml"/>
+                    <file path="logic.xml" resource="logic.xml"/>
+                    <file path="router.xml" resource="router.xml"/>
+                </dir>
+                <dir path="java"/>
+                <dir path="resources"/>
+            </dir>
+            <dir path="test">
+                <dir path="java"/>
+                <dir path="resources"/>
+            </dir>
+        </dir>
+        <file path="README.md">
+            # ${artifactId}
+        </file>
+        <file path="pom.xml" resource="pom.xml"/>
+        <file path="mule-artifact.json" resource="mule-artifact.json"/>
+        <file path=".gitignore" resource="gitignore.txt"/>
+    </files>
+</template>

@@ -1,0 +1,4 @@
+{
+  "secureProperties": [],
+  "minMuleVersion": "${runtimeVersion}"
+}
