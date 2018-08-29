@@ -6,7 +6,7 @@
 
     <groupId>com.kloudtek.genesis.mule</groupId>
     <artifactId>genesis-template-mule</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.9.0</version>
     <name>Genesis Mule project template</name>
     <description>Mule template using the genesis templating system</description>
     <url>https://github.com/kloudtek/genesis-template-mule</url>
