@@ -19,9 +19,7 @@
         <dir path="src">
             <dir path="main">
                 <dir path="mule">
-                    <file path="config.xml" resource="config.xml"/>
-                    <file path="logic.xml" resource="logic.xml"/>
-                    <file path="router.xml" resource="router.xml"/>
+                    <file path="api.xml" resource="api.xml"/>
                 </dir>
                 <dir path="java"/>
                 <dir path="resources">
